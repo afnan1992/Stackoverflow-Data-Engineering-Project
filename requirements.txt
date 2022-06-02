@@ -1,0 +1,5 @@
+stackapi
+iso3166
+unidecode
+pandas
+numpy
