@@ -1,2 +1,6 @@
 /logs
 /plugins
+/dags/csv_to_postgres.py
+/dags/etl.py
+/dags/helper.py
+/dags/utils.py
