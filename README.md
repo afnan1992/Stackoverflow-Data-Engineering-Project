@@ -5,7 +5,7 @@ A fully managed data pipeline orchestrated using Airflow. I used the stackoveflo
 
 # Architecture
 
-!(stackoverflow_data_engineering_project.png)
+![Architecture](imgs/stackoverflow_data_engineering_project.png)
 
 # Data Model
 
@@ -16,7 +16,7 @@ A fully managed data pipeline orchestrated using Airflow. I used the stackoveflo
 5. Tag dimension is basically a bridge table that tells which tags are associated with the question. I had to use a bridge to avoid many to many joins to the fact table.
 
 
-#### How to Run
+# How to Run
     Make sure that you have a local instance of Postgres running on port 5432
     Go to the root directory of this project
     Run docker-compose build
