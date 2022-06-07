@@ -9,6 +9,8 @@ A fully managed data pipeline orchestrated using Airflow. I used the stackoveflo
 
 # Data Model
 
+[!DataModel](imgs/data_model.png)
+
 1. Fact Questions Answer is the main fact table, each row basically tells the question asked and the correct answer associated with it
 2. User dimension is used to find the user who asked the question, and the person who answered it.
 3. Answer dimension is used to find attributes related to the answer
